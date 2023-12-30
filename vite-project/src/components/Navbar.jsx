@@ -1,4 +1,4 @@
-import { FaStore } from 'react-icons/fa';
+
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from 'react';
 
@@ -11,8 +11,8 @@ export default function Navbar() {
 
     return(
         <nav className="bg-gray-900 flex flex-grow justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
-            <span className="flex items-center text-white text-2xl ml-4 font-extralight hover:text-slate-200">
-                <FaStore className="ml-3" /> <a href='#' className='ml-4'>Effatha Modelos</a>
+             <span className="flex items-center text-white text-2xl ml-4 font-extralight hover:text-slate-200">
+                <a href='#' className='ml-4'>Effatha Modelos</a>
             </span>
             <div className="md:hidden">
                 <button onClick={toggleDropdown}>
